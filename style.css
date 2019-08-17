@@ -1,0 +1,238 @@
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    min-width: 1200px;
+}
+@font-face {
+    font-family: 'Circe Regular';
+    src: url('Circe-Regular.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Circe Bold';
+    src: url('Circe-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+header{
+    width: 100%;
+    height: 650px;
+    background: url(intro.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    position: relative;
+    border-bottom: 2px solid #F8D186;
+}
+.top_header img{
+    margin: 25px 0% 0% 150px;
+    background-image: url(blur.png);
+}
+.format_block{
+    margin-bottom: 100px;
+    padding-top: 75px;
+    width: 100%;
+    height: 450px;
+    background: url(format.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 75px;
+}
+.format_block .icons{
+    height: 100%;
+    justify-content: space-between;
+}
+.directions .icons{
+    height: 100%;
+    justify-content: space-between;
+}
+.intro_school{
+    padding-top: 10px;
+    height: 70%;
+    width: 100%;
+    z-index: 10;
+    background: rgba(248, 209, 134, 0.84);
+    margin-top: 150px;
+}
+.telephone{
+    height: auto;
+    width: 100%;
+    max-width: 23em;
+    position: absolute;
+    bottom: 0;
+    padding-left: 10%; 
+    z-index: 15;
+}
+.intro_school h2{
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    line-height: 75px;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 20px;
+}
+.intro_school h3{
+    font-family: 'Circe Regular';
+    line-height: 20px;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.bottom_header{
+    height: 375px;
+}
+.intro_text{
+    transition: 1s ease-in-out;
+    float: right;
+    padding-right: 12.5%;
+}
+.numbers{
+    float: right;
+    margin: 25px 150px 0 0;
+    background: url(blur.png);
+    background-position: center center;
+}
+.numbers p{
+    color: white;
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 800;
+    text-align: right;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+}
+.icon_block{
+    max-width: 200px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.icon_block:first-child{
+    margin-left: 10%;
+}
+.icon_block:last-child{
+    margin-right: 10%;
+}
+.icons{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+hr{
+    text-align: center;
+    width: 207px;
+    height: 2px;
+    border: 0;
+    background: #F8D186;
+    margin: 40px auto;
+}
+.address{
+    background: #051747;
+    width: 40%;
+    float: left;
+    text-align: left;
+}
+.address h1{
+    color: #F8D186;
+    text-align: left;
+    padding: 10% 5% 5% 20%;
+    font-size: 50px;
+}
+.address p{
+    color: #FFFFFF;
+    padding: 0 10% 0 20%;
+    font-size: 30px;
+    font-family: 'Circe Regular';
+    font-size: 24px;
+    line-height: 35px;
+}
+.study_block{
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0 10%;
+}
+h1{
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+}
+.study_p{
+    font-family: 'Circe Regular';
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    padding-bottom: 75px;
+}
+.directions{
+    margin-bottom: 100px;
+}
+.format_block h1{
+    margin-bottom: 50px;
+}
+.directions h1{
+    margin-bottom: 50px;
+}
+.map{
+    display: flex;
+    flex-shrink: 0;
+    overflow: hidden;
+    max-height: 550px
+}
+#map{
+    float: left;
+    width: 60%;
+    min-width: 600px;
+}
+#map img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+p{
+    font-family: 'Circe Regular';
+}
+@media (min-width: 1400px) {
+    .intro_text{
+        padding-right: 30%;
+    }
+    .telephone{
+        max-width: 21em;
+    }
+  }
+@media (min-width: 1200px) {
+.intro_text{
+    padding-right: 15%;
+}
+.telephone{
+    max-width: 21em;
+}
+}
+@media (min-width: 1000px) {
+    .intro_text{
+        padding-right: 10%;
+    }
+    .telephone{
+        max-width: 21em;
+    }
+}
+@media (min-width: 1300px) {
+    .intro_text{
+        padding-right: 20%;
+    }
+    .telephone{
+        max-width: 21em;
+    }
+}
+@media (min-width: 1600px) {
+    .intro_text{
+        padding-right: 30%;
+    }
+    .telephone{
+        max-width: 22em;
+    }
+    }
