@@ -225,7 +225,7 @@ p{
         padding-right: 20%;
     }
     .telephone{
-        max-width: 20em;
+        max-width: 21em;
     }
 }
 @media (min-width: 1600px) {
@@ -236,3 +236,20 @@ p{
         max-width: 22em;
     }
     }
+@media (min-width: 1900px) {
+.intro_text{
+    padding-right: 35%;
+}
+.telephone{
+    max-width: 22em;
+    padding-left: 15%; 
+}
+.study_block{
+    padding: 0 15%;
+}
+.icon_block{
+    max-width: 150px;
+    margin-left: 0;
+    margin-right: 0;
+}
+}
