@@ -217,7 +217,7 @@ p{
         padding-right: 10%;
     }
     .telephone{
-        max-width: 21em;
+        max-width: 20em;
     }
 }
 @media (min-width: 1300px) {
@@ -225,7 +225,7 @@ p{
         padding-right: 20%;
     }
     .telephone{
-        max-width: 21em;
+        max-width: 20em;
     }
 }
 @media (min-width: 1600px) {
